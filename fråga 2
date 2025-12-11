@@ -1,0 +1,18 @@
+using System;
+
+namespace Test
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int tal = 1;
+
+            while (tal != 0)
+            {
+                Console.WriteLine("Skriv ett tal");
+                tal = int.Parse(Console.ReadLine());
+            }
+        }
+    }
+}
