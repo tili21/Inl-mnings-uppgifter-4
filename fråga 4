@@ -1,0 +1,21 @@
+using System;
+
+namespace Test
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string lösen;
+
+            do
+            {
+                Console.WriteLine("Skriv lösenord:");
+                lösen = Console.ReadLine();
+
+            } while (lösen != "hemligt");
+
+            Console.WriteLine("Rätt lösenord!");
+        }
+    }
+}
